@@ -29,7 +29,7 @@ F-beta: 0.6292645943896891
 
 ## Ethical Considerations
 
-Census data from UCI should be credited when model is publicized
+The model may have biases in its predictions, which could lead to unfair prediction of salary outcome. The model should be deployed to categorize group of popution which may cause inequalities
 
 ## Caveats and Recommendations
 Make sure data is cleaned: remove space, handle missing information, drop unnecessary column.

@@ -17,6 +17,23 @@ class Value(BaseModel):
     sex: str
     native_country: str
 
+    class Config:
+        schema_extra = {
+            "example": {
+                "age": 64,
+                "workclass": "State-gov",
+                "fnlgt": 77516,
+                "education": "Bachelors",
+                "education_num": 13,
+                "marital_status": "Adm-clerical",
+                "occupation": "Adm-clerical",
+                "relationship": "Not-in-family",
+                "race": "White",
+                "sex": "Male",
+                "native_country": "United-States"
+            }
+        }
+
 
 app = FastAPI()
 
